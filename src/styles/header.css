@@ -1,0 +1,19 @@
+/******** CONTAINER/LAYOUT **************/
+.container-header{
+    color: #474645;
+    width: 60%;
+    margin: 27px auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/******** HEADING/CONTENT **************/
+.container-header-heading{
+    font-size: 2em;
+    padding-bottom: 10px;    
+    font-weight: 400;
+}
+
+.container-header-content{
+    width: auto
+}

@@ -1,0 +1,466 @@
+/******** CONTAINER/CONTROLS **************/
+
+.container2{
+    background-color: #fafaf9;
+}
+
+.group-control{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.nps-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content:center;
+}
+
+.group-input-control{
+    text-align: center;
+    position: relative;
+}
+
+.input-control{
+    padding-right: 7px;
+}
+
+/******** FACES **************/
+
+.count-smiley-face{
+    position: absolute;
+    height: 50px;
+    top: -25px;
+    right: 50px;
+}
+
+.count-neutral-face{
+    position: absolute;
+    height: 50px;
+    top: -25px;
+    right: 50px;
+}
+
+.count-sad-face{
+    position: absolute;
+    height: 50px;
+    top: -25px;
+    right: 197px;
+}
+
+.group-smiley-face{
+    position: absolute;
+    height: 50px;
+    top: -70px;
+    right: 0;
+}
+
+.nps-smiley-face{
+    position: absolute;
+    height: 50px;
+    top: -25px;
+    right: 28px;
+}
+
+.nps-sad-face{
+    position: absolute;
+    height: 50px;
+    top: -25px;
+    right: 28px;
+}
+
+.nps-circle{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    height:50px;
+    width:50px;
+    font-weight: 500;
+    border-radius: 50%;
+    top: -25px;
+    right: 30px;
+    background-color: #474645;
+    color:#ffffff;
+}
+
+/******** ROW ONE (COUNT RESPONSE) **************/
+
+.nps-calculator-tag{
+    position:absolute;
+    top:-12px;
+    right:400px;
+    background-color: #8566CC;
+    color:#ffffff;
+    width: 150px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 2px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-count{
+    position: relative;
+    display: flex;
+    width: 956px;
+    margin: auto;
+    padding-bottom: 48px;
+    padding-top: 80px;
+    margin-bottom: 47px;
+    border-top: 1px solid #e0e0d9;
+    border-bottom: 1px solid #e0e0d9;
+}
+
+.form-count-promoter{
+    position: relative;
+    height: 149px;
+    width: 148px;
+    border: solid;
+    color: #2d9600;
+    border-color: #2d9600;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 48px 10px 0 10px;
+    margin-right: 10px;
+}
+
+.form-count-neutral{
+    position: relative;
+    height: 149px;
+    width: 148px;
+    border: solid;
+    color: #838383;
+    border-color: #838383;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 48px 10px 0 10px;
+    margin-right: 10px;
+
+}
+
+.form-count-detractor{
+    position: relative;
+    height: 149px;
+    width: 438px;
+    border: solid;
+    color: #c22b00;
+    border-color: #c22b00;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 48px 10px 0 10px;
+}
+
+/******** ROW TWO (GROUP RESPONSE) **************/
+.form-group{
+    display: flex;
+    width: 956px;
+    margin: auto;
+    padding-bottom: 48px;
+    margin-bottom: 47px;
+    border-bottom: 1px solid #e0e0d9
+}
+
+
+.form-group-promoter{
+    height: 99px;
+    width: 84px;
+    border: solid;
+    color: #2d9600;
+    border-color: #2d9600;
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 48px 10px 0 10px;
+    margin:0 0 0 20px;
+}
+
+.form-group-neutral{
+    height: 99px;
+    width: 84px;
+    border: solid;
+    color: #838383;
+    border-color: #838383;
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 48px 10px 0 10px;
+    margin:0 0 0 55px;
+}
+
+.form-group-detractor{
+    height: 99px;
+    width: 84px;
+    border: solid;
+    color: #c22b00;
+    border-color: #c22b00;
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 48px 10px 0 10px;
+    margin:0 0 0 190px;
+
+}
+
+/******** ROW THREE (CALCULATE NPS) **************/
+
+.form-calculate{
+    display: flex;
+    width: 956px;
+    margin: auto;
+    padding-bottom: 48px;
+    margin-bottom: 47px;
+    border-bottom: 1px solid #e0e0d9
+}
+
+.form-nps-promoter{
+    position: relative;
+    height: 99px;
+    width: 84px;
+    border: solid;
+    color: #2d9600;
+    border-color: #2d9600;
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 48px 10px 0 10px;
+    margin:0 25px 0 25px
+}
+
+.form-nps-detractor{
+    position: relative;
+    height: 99px;
+    width: 84px;
+    border: solid;
+    color: #c22b00;
+    border-color: #c22b00;
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 48px 10px 0 10px;
+    margin:0 25px 0 25px
+}
+
+.form-nps-score{
+    position: relative;
+    height: 99px;
+    width: 84px;
+    border: solid;
+    color: #474645;
+    border-color: #474645;
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 48px 10px 0 10px;
+    margin:0 25px 0 25px
+}
+
+.calculate-input-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width:775px;
+}
+
+.nps-input-promoter{
+    color: #2d9600;
+    display: flex;
+    height: 28px;
+    width: 80px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 0;
+    background-color: #fff;
+    font-size: 200%;
+    border: none;
+}
+
+.nps-input-detractor{
+    color: #c22b00;
+    display: flex;
+    height: 28px;
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+}
+
+.nps-promoter-percentage{
+    color: #2d9600;
+    font-size: 200%;
+    height: 28px;
+    text-align: center;
+    justify-content: center;
+}
+
+.nps-detractor-percentage{
+    color: #c22b00;
+    font-size: 200%;
+    height: 28px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.nps-score-percentage{
+    color: #474645;
+    font-size: 200%;
+    height: 28px;
+    text-align: center;
+    justify-content: center;
+}
+
+.nps-input-score{
+    color: #474645;
+    display: flex;
+    height: 28px;
+    width: 80px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 0;
+    background-color: #fff;
+    font-size: 200%;
+    border: none;
+}
+
+.nps-card-text{
+    font-size: 13px;
+}
+
+.operation-sign{
+    margin-top: 50px;
+}
+
+.start-over-text{
+    cursor: pointer;
+    color: #1e94e8;
+    font-weight: 500;
+}
+
+/******** ROW HEADER/LABEL/INPUT **************/
+
+.form-header{
+    color: #474645;
+    width: 182px;
+}
+
+.form-label{
+    padding-bottom: 5px;
+}
+
+.form-input-promoter{
+    height: 48px;
+    width: 48px;
+    font-size: 16px;
+    border: 1px solid #bebeb8;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 8px;
+    box-sizing: border-box
+}
+
+.form-input-neutral{
+    height: 48px;
+    width: 48px;
+    font-size: 16px;
+    border: 1px solid #bebeb8;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 8px;
+    box-sizing: border-box
+}
+
+.form-input-detractor{
+    height: 48px;
+    width: 48px;
+    font-size: 16px;
+    border: 1px solid #bebeb8;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 8px;
+    box-sizing: border-box
+}
+
+/******** MEDIA QUERIES **************/
+@media(max-width:800px){
+    .form-count{
+        flex-direction: column; 
+        width: 90%;
+        align-items: center;   
+    }
+
+    .form-group{
+        flex-direction: column; 
+        width: 90%;
+        align-items: center;
+    }
+
+    .form-calculate{
+        flex-direction: column; 
+        width: 90%;
+        align-items: center;
+    }
+
+    .nps-calculator-tag{
+        right: 36%;
+    }
+
+    .mobile-margin{
+        margin-bottom: 30px;  
+    }
+
+    .form-header{
+        width: 80%;
+    }
+
+    .form-group-promoter, .form-group-neutral{
+        margin-left: 0;
+    }
+   
+    .form-count-detractor{
+        width:90%;
+        margin: auto;
+    }
+
+    .form-group-detractor{
+        margin: 0;
+    }
+    
+    .count-sad-face{
+        right:165px;
+    }
+
+    .calculate-input-container{
+        flex-direction: column;
+        margin: auto;
+        max-width: 45%;
+        text-align: center;
+    }
+
+    .form-nps-detractor, .form-nps-score{
+        margin-top: 50px;
+    }
+}
