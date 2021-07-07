@@ -9,6 +9,8 @@ To use the application, enter your scores in the first row, "Count the Responses
 ## User Stories
 A user can add, update, and delete totals to their respective ratings in the first row, "Count the Responses". The second & third rows are updated accordingly.
 
+A user can click on the "Start over" link to clear their entries.
+
 # Instructions
 
 ## To start the Client:
