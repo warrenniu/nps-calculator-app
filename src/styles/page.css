@@ -2,10 +2,3 @@
     font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica,Arial;
     width: 100vw;
 }
-
-@media(min-width:800px){
-    .container1{
-        width:90%;
-        margin: 0;
-    }
-}

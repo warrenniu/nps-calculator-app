@@ -44,8 +44,6 @@ export function TotalProvider({ children }) {
 
     }
 
-    
-
     const [cumulativeTotal, setCumulativeTotal] = useState(0)
 
     //get total value of all inputs
@@ -58,9 +56,6 @@ export function TotalProvider({ children }) {
         }
         setCumulativeTotal(maxTotal)
     }, [count])
-
-
-
 
     //clear state for "Start over" function
     function clearState() {
@@ -89,7 +84,5 @@ export function TotalProvider({ children }) {
                 </CountUpdateContext.Provider>
             </MaxValueContext.Provider>
         </CountContext.Provider>
-
     )
-
 }

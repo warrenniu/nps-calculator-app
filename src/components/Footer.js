@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="footer-container">
             <p className="footer-header">
-                <b>Sign up now</b> and <b>survey 250 customers for free.</b> You're minutes away from getting feedback!
+                Interested in improving your customer experience with NPS?
             </p>
             <div className="footer-form-container">
                 <form className="footer-form">
@@ -36,9 +36,17 @@ const Footer = () => {
                     Sign up with Google
                 </div>
             </div>
-            <p className="footer-contact">
-                Work in a large organization or have unique needs? <u>Contact our sales team</u>
-            </p>
+            <div className="footer-contact">
+                <img className="twitter-image" 
+                    src="https://i.imgur.com/q7cemcG.png" 
+                    alt="twitter logo">
+                </img>
+                <img className="facebook-image" 
+                    src="https://i.imgur.com/2ddHFhI.png" 
+                    alt="facebook logo">
+                </img>
+            </div>
+            
         </footer>
     )
 }

@@ -8,6 +8,25 @@
 }
 
 /******** HEADING/CONTENT **************/
+
+.navigation-menu{
+    margin: 30px 20px 30px 20px;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.menu-break{
+    width: 50%;
+}
+
+.container-navigation{
+    padding-left: 20px;
+    padding-right: 5px;
+    display:flex;
+    flex-direction: row;
+}
+
 .container-header-heading{
     font-size: 2em;
     padding-bottom: 10px;    
