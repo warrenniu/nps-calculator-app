@@ -4,7 +4,7 @@ This project calculates your NPS score by tallying up your responses and subtrac
 
 To use the application, enter your scores in the first row, "Count the Responses". The scores are automatically grouped in row two, "Group the Responses", and calculated in row three, "Calculate your NPS" 
 
-https://www.screencast.com/t/nncLErSu
+<img src="https://media.giphy.com/media/3AVLgJHa95yROW5cak/giphy.gif" alt="My Project GIF" width="500" height="600">
 
 ## User Stories
 A user can add, update, and delete totals to their respective ratings in the first row, "Count the Responses". The second & third rows are updated accordingly.
