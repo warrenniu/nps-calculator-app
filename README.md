@@ -9,5 +9,7 @@ To use the application, enter your scores in the first row, "Count the Responses
 ## To start the Client:
 
 npm install or yarn
+
 npm start or  yarn
+
 The client is running on http://localhost:3000/
