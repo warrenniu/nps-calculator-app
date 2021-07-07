@@ -22,11 +22,8 @@ export function useStartOver() {
     return useContext(ClearStateContext)
 }
 
-
-export function TotalProvider({ children }) {
-
-    const [count, setCount] = useState({
-        zero: '',
+const emptyState = {
+    zero: '',
         one: '',
         two: '',
         three: '',
@@ -37,7 +34,12 @@ export function TotalProvider({ children }) {
         eight: '',
         nine: '',
         ten: '',
-    })
+}
+
+
+export function TotalProvider({ children }) {
+
+    const [count, setCount] = useState(emptyState)
 
     function changeHandler(e) {
         setCount({ ...count, [e.target.name]: isNaN(parseInt(e.target.value)) ? '' : parseInt(e.target.value) })
@@ -59,19 +61,7 @@ export function TotalProvider({ children }) {
 
     //clear state for "Start over" function
     function clearState() {
-        setCount({
-            zero: '',
-            one: '',
-            two: '',
-            three: '',
-            four: '',
-            five: '',
-            six: '',
-            seven: '',
-            eight: '',
-            nine: '',
-            ten: '',
-        })
+        setCount(emptyState)
     }
 
     return (

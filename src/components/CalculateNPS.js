@@ -29,14 +29,15 @@ const CalculateNPS = () => {
                     <img className="nps-smiley-face"
                         src="https://i.imgur.com/ATjTcGg.png"
                         alt="happy face"
-                    >
-                    </img>
+                    />
                     <div className="nps-control">
                         <div className="nps-promoter-percentage">
                             {promoterPercentage}%
                         </div>
                         <br></br>
-                        <div className="nps-card-text">of total responses</div>
+                        <div className="nps-card-text">
+                            of total responses
+                        </div>
                     </div>
                 </div>
 
@@ -46,14 +47,15 @@ const CalculateNPS = () => {
                     <img className="nps-sad-face"
                         src="https://i.imgur.com/xTeljtW.png"
                         alt="sad face"
-                    >
-                    </img>
+                    />
                     <div className="nps-control">
                         <div className="nps-detractor-percentage">
                             {detractorPercentage}%
                         </div>
                         <br></br>
-                        <div className="nps-card-text">of total responses</div>
+                        <div className="nps-card-text">
+                            of total responses
+                        </div>
                     </div>
                 </div>
 

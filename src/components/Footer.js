@@ -13,9 +13,9 @@ const Footer = () => {
                         placeholder="Your email address"
                     >
                     </input>
-                </form>
+                
 
-                <form className="footer-form">
+                
                     <input
                         className="form-input-password"
                         placeholder="Choose a password"
@@ -31,20 +31,20 @@ const Footer = () => {
                     <img className="google-image"
                         src="https://i.imgur.com/0pVs4L4.png"
                         alt="google symbol"
-                    >
-                    </img>
+                    />
                     Sign up with Google
                 </div>
             </div>
             <div className="footer-contact">
                 <img className="twitter-image" 
                     src="https://i.imgur.com/q7cemcG.png" 
-                    alt="twitter logo">
-                </img>
+                    alt="twitter logo"
+                />
+                
                 <img className="facebook-image" 
                     src="https://i.imgur.com/2ddHFhI.png" 
-                    alt="facebook logo">
-                </img>
+                    alt="facebook logo"
+                />
             </div>
             
         </footer>

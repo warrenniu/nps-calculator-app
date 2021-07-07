@@ -1,6 +1,6 @@
 /******** CONTAINER/CONTROLS **************/
 
-.container2{
+.calculator-container{
     background-color: #fafaf9;
 }
 
@@ -225,7 +225,7 @@
     margin: auto;
     padding-bottom: 48px;
     margin-bottom: 47px;
-    border-bottom: 1px solid #e0e0d9
+    border-bottom: 1px solid #e0e0d9;
 }
 
 .form-nps-promoter{
@@ -239,7 +239,7 @@
     border-width: 1px;
     border-radius: 3px;
     padding: 48px 10px 0 10px;
-    margin:0 25px 0 25px
+    margin:0 25px 0 25px;
 }
 
 .form-nps-detractor{
@@ -253,7 +253,7 @@
     border-width: 1px;
     border-radius: 3px;
     padding: 48px 10px 0 10px;
-    margin:0 25px 0 25px
+    margin:0 25px 0 25px;
 }
 
 .form-nps-score{
@@ -267,7 +267,7 @@
     border-width: 1px;
     border-radius: 3px;
     padding: 48px 10px 0 10px;
-    margin:0 25px 0 25px
+    margin:0 25px 0 25px;
 }
 
 .calculate-input-container {
@@ -277,35 +277,9 @@
     width:775px;
 }
 
-.nps-input-promoter{
-    color: #2d9600;
-    display: flex;
-    height: 28px;
-    width: 80px;
-    text-align: center;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 0;
-    background-color: #fff;
-    font-size: 200%;
-    border: none;
-}
-
-.nps-input-detractor{
-    color: #c22b00;
-    display: flex;
-    height: 28px;
-    width: 20px;
-    text-align: center;
-    justify-content: center;
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #fff;
-}
-
 .nps-promoter-percentage{
     color: #2d9600;
-    font-size: 200%;
+    font-size: 32px;
     height: 28px;
     text-align: center;
     justify-content: center;
@@ -313,7 +287,7 @@
 
 .nps-detractor-percentage{
     color: #c22b00;
-    font-size: 200%;
+    font-size: 32px;
     height: 28px;
     text-align: center;
     justify-content: center;
@@ -322,24 +296,10 @@
 
 .nps-score-percentage{
     color: #474645;
-    font-size: 200%;
+    font-size: 32px;
     height: 28px;
     text-align: center;
     justify-content: center;
-}
-
-.nps-input-score{
-    color: #474645;
-    display: flex;
-    height: 28px;
-    width: 80px;
-    text-align: center;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 0;
-    background-color: #fff;
-    font-size: 200%;
-    border: none;
 }
 
 .nps-card-text{
@@ -375,7 +335,7 @@
     border-radius: 5px;
     background-color: #fff;
     padding-left: 8px;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .form-input-neutral{
@@ -388,7 +348,7 @@
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 8px;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .form-input-detractor{
@@ -401,7 +361,7 @@
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 8px;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 /******** MEDIA QUERIES **************/
@@ -448,7 +408,7 @@
     .form-group-detractor{
         margin: 0;
     }
-    
+
     .count-sad-face{
         right:165px;
     }

@@ -29,10 +29,11 @@
 
 .container-header-heading{
     font-size: 2em;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
+    font-size: 30px;
     font-weight: 400;
 }
 
 .container-header-content{
-    width: auto
+    width: auto;
 }

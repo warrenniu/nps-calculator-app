@@ -20,8 +20,7 @@ const CountResponse = () => {
                     <img className="count-smiley-face"
                         src="https://i.imgur.com/ATjTcGg.png"
                         alt="happy face"
-                    >
-                    </img>
+                    />
                     <div className="group-control">
                         <div className="input-control">
                             <div className="form-label">
@@ -58,8 +57,7 @@ const CountResponse = () => {
                     <img className="count-neutral-face"
                         src="https://i.imgur.com/5NBdMW8.png" 
                         alt="neutral face"
-                    >
-                    </img>
+                    />
                     <div className="group-control">
                         <div className="input-control">
                             <div className="form-label">
@@ -96,8 +94,7 @@ const CountResponse = () => {
                     <img className="count-sad-face" 
                         src="https://i.imgur.com/xTeljtW.png" 
                         alt="sad face"
-                    >
-                    </img>
+                    />
                     <div className="group-control">
                         <div className="input-control">
                             <div className="form-label">

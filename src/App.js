@@ -9,9 +9,9 @@ import './styles/page.css'
 
 function App() {
   return (
-    <div className="container1">
+    <div className="layout">
       <Header />
-      <div className="container2">
+      <div className="calculator-container">
         <TotalProvider>
           <CountResponse />
           <GroupResponse />
